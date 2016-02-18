@@ -501,4 +501,260 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+    margin: 0;
 }
+
+/*
+    Theme Name: Shangri-La
+    Theme URI: http://briangardner.com/
+    Description: A mythical Himalayan utopia.
+    Author: Brian Gardner
+    Author URI: http://briangardner.com/
+    Version: 1.0
+    Template: genesis
+*/
+
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3144528, 2015-12-21T21:56:26-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirLTStd-Heavy by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * Webfont: AvenirLTStd-Medium by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-medium/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ * 
+ * Webfont: AvenirLTStd-Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * Webfont: AvenirLTStd-Book by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3144528
+ * Licensed pageviews: 250,000
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2ffb50");
+
+  
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/2FFB50_0_0.eot');src: url('fonts/2FFB50_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2FFB50_0_0.woff2') format('woff2'),url('fonts/2FFB50_0_0.woff') format('woff'),url('fonts/2FFB50_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Medium';src: url('fonts/2FFB50_1_0.eot');src: url('fonts/2FFB50_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2FFB50_1_0.woff2') format('woff2'),url('fonts/2FFB50_1_0.woff') format('woff'),url('fonts/2FFB50_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Light';src: url('fonts/2FFB50_2_0.eot');src: url('fonts/2FFB50_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/2FFB50_2_0.woff2') format('woff2'),url('fonts/2FFB50_2_0.woff') format('woff'),url('fonts/2FFB50_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Book';src: url('fonts/2FFB50_3_0.eot');src: url('fonts/2FFB50_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/2FFB50_3_0.woff2') format('woff2'),url('fonts/2FFB50_3_0.woff') format('woff'),url('fonts/2FFB50_3_0.ttf') format('truetype');}
+
+
+/* Reset
+---------------------------------------------------------------------------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+}
+
+
+/* Defaults
+---------------------------------------------------------------------------------------------------- */
+
+
+
+a.footlink,
+.button {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    transition:         all 0.3s ease-in-out;
+}
+
+::-moz-selection {
+    background-color: #4f514e;
+    color: #fff;
+}
+
+::selection {
+    background-color: #4f514e;
+    color: #fff;
+}
+
+a.footlink {
+    color: #3a3b39;
+    text-decoration: none;
+}
+
+a.footlink:hover {
+    color: #4f514e;
+}
+
+p.social,
+p.live,
+p.love,
+p.caption
+p.links {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+/* Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+footer{
+
+    color: #3a3b39;
+    font-family: 'kepler-std', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}
+
+.insidefoot{
+    height: 50%;
+}
+
+.site-footer {
+    background-image: url(footer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size:    cover;
+    background-size:         cover;
+
+    background-color: #fff;
+/*  border-top: 5px solid #4f514e;
+*/  color: #3a3b39;
+    font-family: 'kepler-std', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.site-footer {
+    line-height: 1;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.site-footer h4.journey {
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: 'kepler-std', serif;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.site-footer h4.journey,
+.site-footer p,
+.site-footer p.caption a,
+.site-footer p.links a,
+.site-footer p.love a,
+.site-footer p.social a {
+    color: #949792;
+}
+
+.site-footer p {
+    font-size: 18px;
+}
+
+.site-footer p.caption,
+.site-footer p.links,
+.site-footer p.love {
+    margin-bottom: 0;
+}
+
+.site-footer p.caption {
+    bottom: 20px;
+    font-style: italic;
+    position: absolute;
+    right: 20px;
+}
+
+.site-footer p.links {
+    font-size: 16px;
+}
+
+.site-footer p.live {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.site-footer p.love {
+    bottom: 20px;
+    font-style: italic;
+    position: absolute;
+    left: 20px;
+}
+
+.site-footer p.caption a:hover,
+.site-footer p.links a:hover,
+.site-footer p.love a:hover,
+.site-footer p.social a:hover {
+    color: #fff;
+}
+
+.site-footer p.social a {
+    border: 1px solid #949792;
+    border-radius: 50%;
+    display: inline-block;
+    height: 42px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    width: 42px;
+}
+
+.site-footer p.social a:hover {
+    border: 1px solid #fff;
+}
+
+.site-footer .icon {
+    font-size: 20px;
+    padding: 0 10 100 0px;
+}
+
+.site-footer .love .icon {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.line{
+    padding:10px;
+}
+
+
+
