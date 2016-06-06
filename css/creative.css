@@ -193,7 +193,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/blue.png);
+    background-image: url(../img/face.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -768,7 +768,7 @@ footer{
 }
 
 
-.owners{
+/*.owners{
         width:500px;
         height:300px;
         border:0px solid #ff9d2a;
@@ -807,6 +807,6 @@ p.own:hover span{
     display:block;
 z-index:9;
 }
-
+*/
 
 
