@@ -193,7 +193,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header1.png);
+    background-image: url(../img/blue.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -765,6 +765,47 @@ footer{
 
 .line{
     padding:10px;
+}
+
+
+.owners{
+        width:500px;
+        height:300px;
+        border:0px solid #ff9d2a;
+        margin:auto;
+        float:left;
+    
+    }
+span.own1{
+    background:#F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 250px;
+    width:310px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    position:absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: auto;
+    left:auto;
+    display:none;
+    padding:0 0px;
+    
+    
+}
+
+p.own{
+    margin:0px;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
+
+p.own:hover span{
+    display:block;
+z-index:9;
 }
 
 
