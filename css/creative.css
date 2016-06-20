@@ -797,18 +797,14 @@ span.own1{
     
     
 }
-
 p.own{
     margin:0px;
     float:left;
     position:relative;
     cursor:pointer;
 }
-
 p.own:hover span{
     display:block;
 z-index:9;
 }
 */
-
-
