@@ -1,2 +1,2 @@
-## The online home of Henry He
+## [The online home of Henry He](http://henryhe.me)
 Feel free to explore!
